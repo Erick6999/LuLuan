@@ -283,7 +283,6 @@ video{
 }
 .imagenes-nosotros img{
     border-radius: 5px;
-    gap: 10;
 }
 .imagen1, .imagenes2{
     flex: 0 0 calc(50% - 1rem);
