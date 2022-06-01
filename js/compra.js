@@ -5,6 +5,10 @@ const procesarCompraBtn = document.getElementById('procesar-compra');
 const cliente = document.getElementById('cliente');
 const correo = document.getElementById('correo');
 
+const database= firebase.database();
+comprar.addEventListener("clik",(e)=>{
+    e.preventDefault();
+    database.ref("/nuevotopico").set({ campo1: txt1.value})
 
 cargarEventos();
 
@@ -92,6 +96,7 @@ function procesarCompra() {
 
         });
 
+        });
     }
 }
 
